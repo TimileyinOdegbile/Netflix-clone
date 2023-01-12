@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    background: linear-gradient(to bottom right, rgb(24, 250, 73), #3423ca);
+    height: 100vh;
+    font-family: Roboto;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza {
+    max-width: 800px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px 20px rgb(0, 0, 0,.2) ;
+
+    display: flex;
+}
+
+.pizza__hero {
+    flex: 0 0 45%;
+}
+
+.pizza__img {
+    display: block;
+    width: 100%;
+}
+
+.pizza__content {
+    flex: 1;
+    background-color: white;
+    padding: 30px 35px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza__price {
+    flex: 0 0 50px;
+    writing-mode: vertical-lr;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgb(24, 250, 73), #3423ca);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza__title {
+    margin-bottom: 35px;
+
+    display: flex;
+    align-items: center;
+}
+
+.pizza__heading{
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.pizza__tag{
+    font-size: 10px;
+    color: white;
+    border-radius: 100px;
+    padding: 2px 7px;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.pizza__tag--1 { background-color: green; }
+.pizza__tag--2 { background-color: blue; }
+
+.pizza__description {
+    font-size: 17px;
+}
+
+.pizza__details {
+    display: flex;
+    
+    margin-top: auto;
+}
+
+.pizza__detail {
+    font-size: 15px;
+    margin-right: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 20px;
+    margin-right: 3px;
+}

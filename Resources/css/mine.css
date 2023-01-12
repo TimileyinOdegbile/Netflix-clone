@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    font-family: Roboto;
+    height: 100vh;
+    padding: 50px;
+    background: linear-gradient(to bottom right, green, blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza {
+    max-width: 800px;
+    border-radius: 4px;
+    box-shadow: 0 30px 80px 20px rgba(0,0,0,.2);
+
+    display: flex;
+}
+
+.pizza__hero {
+    flex: 0 0 45%;
+}
+
+.pizza__img {
+    width: 100%;
+    display: block;
+    
+}
+
+.pizza__content {
+    flex: 1;
+    background-color: white;
+    padding: 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza__title {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.pizza__heading {
+    margin-right: auto;   
+}
+
+.pizza__tag {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px;
+    margin: 0 5px;
+    border-radius: 100px;
+}
+
+.pizza__tag--1 { background-color: green; }
+.pizza__tag--2 { background-color: blue; }
+
+.pizza__description {
+    font-size: 17px;
+}
+
+.pizza__details {
+    display: flex;
+
+    margin-top: auto;
+}
+
+.pizza__detail {
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.pizza__price {
+    flex: 0 0 45px;
+    writing-mode: vertical-lr;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(to bottom, green, blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

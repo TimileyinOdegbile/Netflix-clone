@@ -1,0 +1,111 @@
+/*Big tablets to 1200px (width smaller than 1140 row)*/
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1071px) {
+    .page__2 {font-size: 90%;}
+}
+
+
+/* Small tablets to big tablets: from 768px to 1023x*/
+@media only screen and (max-width: 1023px) {
+    .net__title { margin: 40px auto; }
+    .page__2 {font-size: 90%;}
+}
+
+@media only screen and (max-width: 976px) {
+    .page__2 {font-size: 80%;}
+}
+
+@media only screen and (max-width: 950px) {
+    .page__2 { 
+        display: inline-block;
+        font-size: 75%;
+    }
+    .page__2--head { text-align: center; }
+    .page__2--hero { padding: 0 30px; }
+    .page__2--img { width: 80%; }
+    .page__2--video { width: 60%; }
+
+    /*PAGE 3*/
+    .page__3 { 
+        display: inline-flex;
+        flex-direction: column-reverse;
+        font-size: 70%;
+        margin: 0 auto;
+    }
+    .page__3--hero { justify-content: center; }
+    .page__3--head { text-align: center; }
+
+    /* PAGE 4*/
+    .page__4--head {
+        max-width: 90%;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    /*PAGE 5*/
+    .page__5 { 
+        display: inline-flex;
+        flex-direction: column-reverse;
+        font-size: 70%;
+        margin: 0 auto;
+    }
+    .page__5--hero { justify-content: center; }
+    .page__5--head { text-align: center; }
+    
+    /* FAQ PAGE */
+    .page__faq {
+        font-size: 85%;
+    }
+
+}
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    
+    header { width: 100vw; }
+    .net__title { margin: 20px auto; }
+    .net__get--started { flex-direction: column; }
+    .email { 
+        height: 60px;
+        padding: 15px;
+        margin: 0 15px;
+    }
+    .net__button { 
+        font-size: 70%;
+        margin-top: 5px;
+        border-radius: 2px;
+        padding: 8px 15px;
+    }
+     .faq-button { 
+        min-width: 90vw;
+        font-size: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 545px) {
+    .page__2, .page__4--head {font-size: 70%;}
+    .page__2--hero { padding: 0 40px; }
+}
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 500px) {
+    html {font-size: 20px;}
+    header {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .net__bar { 
+        padding: auto 20px;
+        margin-bottom: 20px;}
+    .net__text--small { font-size: 140%;}
+    .net__title { margin: 2px auto; }
+
+    .faq-button { 
+        max-width: 90vw;
+        font-size: 130%; 
+    }
+}
